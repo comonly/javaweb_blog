@@ -9,7 +9,7 @@
 <div id='main'>
         <ul>
             {{each list}}
-            <li>编号：{{$value.id}} &nbsp;&nbsp;姓名：{{$value.name}}</a></li>
+            <li>时间：{{$value.ptime}} &nbsp;&nbsp;标题：{{$value.ptitle}}<a href="/detail?id={{$value.pnumber}}">查看</a></li>
             {{/each}}
         </ul>
 </div>
